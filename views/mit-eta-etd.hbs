@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{train.train_name}}</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="stylesheet" type="text/css" href="/styleList.css" />
+    <link rel="stylesheet" type="text/css" href="/styleTable.css" />
+</head>
+
+<body>
+    {{>navbar}}
+    <div class="main">
+
+
+
+    {{#if schedule}}
+        <div class="container2">
+            <table>
+                <caption>Time table - {{train.train_name}}</caption>
+                <tr class="header">
+                    <th>Schedule Id</th>
+                    <th>Station Name</th>
+                    <th>ETA (Estimated Time of Arrival)</th>
+                    <th>ETD (Estimated Time of Departure)</th>
+                </tr>
+                {{#each schedule}}
+                <tr>
+                    <td>{{timetable_id}}</td>
+                    <td>{{station_name}}</td>
+                    <td>{{arrival_time}}</td>
+                    <td>{{departure_time}}</td>
+                </tr>
+                {{/each}}
+            </table>
+        </div>
+    {{/if}}
+
+    </div>
+
+    <script>
+        function confirmDelete() 
+        {
+            var x = confirm("Are you sure you want to delete?");
+            if (x)
+                window.location = "/trains/delete/?id=" + {{ train.train_id }};
+            else
+                window.location = "/trains/" + {{ train.train_id }} +"/view";
+        }
+    </script>
+
+</body>
+
+</html>
