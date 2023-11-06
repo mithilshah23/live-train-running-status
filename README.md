@@ -16,7 +16,7 @@ After downloading the project on the local system, perform the following steps:
 
 2. Type the command:
 ```bash
-cd live-train-running-status-main
+cd live-train-running-status
 npm install 
 ```
 It will install all the modules which are required by the project into a node_modules folder.
