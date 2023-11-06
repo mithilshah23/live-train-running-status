@@ -3,6 +3,38 @@
 
 A web-based application which can be used for managing the data of Railways.
 
+## Database Schema
+
+![DatabaseModelSchema](https://raw.githubusercontent.com/mithilshah23/live-train-running-status/main/Screenshots/DatabaseModelSchema.png)
+
+## Demo 
+
+### Trains
+![Trains](https://raw.githubusercontent.com/mithilshah23/live-train-running-status/main/Screenshots/Trains.png)
+
+### Stations
+![Stations](https://raw.githubusercontent.com/mithilshah23/live-train-running-status/main/Screenshots/Stations.png)
+
+### Routes
+![Routes](https://raw.githubusercontent.com/mithilshah23/live-train-running-status/main/Screenshots/Routes.png)
+
+### ETA_ETD
+![ETA_ETD](https://raw.githubusercontent.com/mithilshah23/live-train-running-status/main/Screenshots/ETA-ETD.png)
+
+### Time Table
+![Time Table](https://raw.githubusercontent.com/mithilshah23/live-train-running-status/main/Screenshots/New-time-table.png)
+
+### Train Details
+![Train Details](https://raw.githubusercontent.com/mithilshah23/live-train-running-status/main/Screenshots/Mumbai-Rajdhani.png)
+
+### Add Trains
+![Add Trains](https://raw.githubusercontent.com/mithilshah23/live-train-running-status/main/Screenshots/New-train.png)
+
+### Add Routes
+![Add Routes](https://raw.githubusercontent.com/mithilshah23/live-train-running-status/main/Screenshots/New-route.png)
+
+### Employees
+![Employees](https://raw.githubusercontent.com/mithilshah23/live-train-running-status/main/Screenshots/Employees.png)
 
 ## Prerequisites
 Make sure you have the following dependencies installed:
